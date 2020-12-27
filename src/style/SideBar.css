@@ -1,0 +1,161 @@
+.sideBar {
+    position: absolute;
+    top: 4vh;
+    width: 350px;
+    height: 85vh;
+    background-color: #fff;
+    border-radius: 0px 7px 7px 0px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0 , 0.1);
+    z-index: 1;
+    padding: 25px;
+    opacity: 0.95;
+}
+
+.collapse {
+    position: absolute;
+    top: 10vh;
+    left: 400px;
+    background-color: #fff;
+    width: 20px;
+    height: 55px;
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0 , 0.1);
+    opacity: 0.95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.expand {
+    position: absolute;
+    top: 14vh;
+    left: 0px;
+    background-color: #fff;
+    width: 20px;
+    height: 55px;
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0 , 0.1);
+    opacity: 0.95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+h1 {
+    position: absolute;
+    top: 9px;
+    left: 180px;
+    color: #222;
+    text-transform: uppercase;
+    font-size: 30.5px;
+    font-weight: 800;
+}
+
+h2 {
+    text-align: left;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+table {
+    margin-bottom: 30px;
+    width: 95%;
+    border-collapse: collapse;
+}
+
+table.fixed { 
+    table-layout: fixed; 
+} 
+table.fixed td { 
+    overflow: hidden; 
+} 
+
+td {
+    width: 95%;
+    border-collapse: collapse;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    overflow-wrap: break-word;
+}
+
+td:nth-child(1) { 
+    max-width: 60%; 
+} 
+
+td:nth-child(2) { 
+    max-width: 40%; 
+} 
+
+th {
+    margin: 0;
+    width: 100%;
+    text-align: left;
+    border: none;
+    color: #555;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+h4 {
+    margin: 0;
+    text-align: left;
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.countryDataColumn {
+    max-height: 50%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+@media ( max-width: 767px ) {
+    .sideBar {
+        position: absolute;
+        top: 0vh;
+        left: 4%;
+        width: 80%;
+        height: 85vh;
+        border-radius: 0px 0px 7px 7px;
+    }
+    
+    .collapse {
+        position: absolute;
+        top: 89.8vh;
+        left: 48%;
+        transform: rotate(90deg)
+    }
+    
+    .expand {
+        position: absolute;
+        top: -2.5vh;
+        left: 48%;
+        transform: rotate(90deg)
+    }
+    
+    img {
+        left: 15px;
+    }
+    
+    h1 {
+        left: 175px;
+    }
+    
+    .countryDataColumn {
+        max-height: 43%;
+    }
+    
+}
