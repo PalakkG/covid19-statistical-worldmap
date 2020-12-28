@@ -126,7 +126,7 @@ h4 {
     .sideBar {
         position: absolute;
         top: 0vh;
-        left: 2%;
+        left: 3%;
         width: 80%;
         height: 75vh;
         border-radius: 0px 0px 7px 7px;
@@ -134,7 +134,7 @@ h4 {
     
     .collapse {
         position: absolute;
-        top: 79.5vh;
+        top: 79.6vh;
         left: 48%;
         transform: rotate(90deg)
     }
