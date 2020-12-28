@@ -126,15 +126,15 @@ h4 {
     .sideBar {
         position: absolute;
         top: 0vh;
-        left: 4%;
+        left: 2%;
         width: 80%;
-        height: 85vh;
+        height: 75vh;
         border-radius: 0px 0px 7px 7px;
     }
     
     .collapse {
         position: absolute;
-        top: 89.8vh;
+        top: 79.5vh;
         left: 48%;
         transform: rotate(90deg)
     }
@@ -155,7 +155,7 @@ h4 {
     }
     
     .countryDataColumn {
-        max-height: 43%;
+        max-height: 40%;
     }
     
 }
