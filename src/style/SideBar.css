@@ -134,7 +134,7 @@ h4 {
     
     .collapse {
         position: absolute;
-        top: 79.5vh;
+        top: 79.4vh;
         left: 48%;
         transform: rotate(90deg)
     }
@@ -155,7 +155,7 @@ h4 {
     }
     
     .countryDataColumn {
-        max-height: 40%;
+        max-height: 41%;
     }
     
 }
