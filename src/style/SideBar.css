@@ -79,11 +79,11 @@ td {
 }
 
 td:nth-child(1) { 
-    max-width: 55%; 
+    max-width: 50%; 
 } 
 
 td:nth-child(2) { 
-    max-width: 45%; 
+    max-width: 50%; 
 } 
 
 th {
