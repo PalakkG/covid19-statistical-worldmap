@@ -79,11 +79,11 @@ td {
 }
 
 td:nth-child(1) { 
-    max-width: 50%; 
+    max-width: 60%; 
 } 
 
 td:nth-child(2) { 
-    max-width: 50%; 
+    max-width: 40%; 
 } 
 
 th {
@@ -116,15 +116,15 @@ h4 {
     .sideBar {
         position: absolute;
         top: 0vh;
-        left: 3%;
+        left: 5%;
         width: 80%;
-        height: 75vh;
+        height: 85vh;
         border-radius: 0px 0px 7px 7px;
     }
     
     .collapse {
         position: absolute;
-        top: 79.4vh;
+        top: 88.7vh;
         left: 48%;
         transform: rotate(90deg)
     }
@@ -141,7 +141,7 @@ h4 {
     }
     
     .countryDataColumn {
-        max-height: 41%;
+        max-height: 54%;
     }
     
 }
