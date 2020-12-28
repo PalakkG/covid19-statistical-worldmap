@@ -52,8 +52,7 @@ const SideBar = (stats) => {
                     </button>
 
                     <img src={logo} alt="Covid-19"></img>
-                    <h1>Statistics</h1>
-                    <br /> <br /><br />
+                    <br /> <br />
 
                     <h2>Global:</h2>
                     <table>
