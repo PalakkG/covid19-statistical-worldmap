@@ -44,7 +44,7 @@ const drawerInfo = (d) => {
         'New Deaths': d.NewDeaths,
         'Total Deaths': d.TotalDeaths,
         'New Recovered': d.NewRecovered,
-        'New Recovered': d.NewRecovered
+        'Total Recovered': d.TotalRecovered
     }
 
     info = Object.entries(countryStats).map(([key, value]) => {
