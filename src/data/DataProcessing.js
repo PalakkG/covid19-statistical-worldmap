@@ -22,11 +22,11 @@ const dataProcessing = (stats, geo) => {
             if (d['TotalConfirmed'] > max) {
                 max = d['TotalConfirmed'];
             }
-            // console.log(eachCountry)
+            //console.log(eachCountry)
         }
     }
 
-    console.log(d)
+    //console.log(d)
     return d;
 }
 

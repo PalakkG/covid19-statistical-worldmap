@@ -58,8 +58,8 @@ h2 {
 }
 
 table {
-    margin-bottom: 30px;
-    width: 95%;
+    margin-bottom: 20px;
+    width: 100%;
     border-collapse: collapse;
 }
 
@@ -71,7 +71,7 @@ table.fixed td {
 } 
 
 td {
-    width: 95%;
+    width: 100%;
     border-collapse: collapse;
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
@@ -104,13 +104,50 @@ h4 {
     font-weight: 400;
 }
 
-.countryDataColumn {
-    max-height: 50%;
+.overflowContainer {
+    max-height: 22.5%;
     overflow-y: scroll;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    margin-bottom: 20px;
 }
 
+select {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    color: #555;
+    font-size: 14px;
+    text-transform: capitalize;
+    padding: 2px;
+}
+
+.dates {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px;
+}
+
+input {
+    width: 45%;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    color: #555;
+    font-size: 14px;
+    padding: 2px 5px;
+}
+
+.getResult {
+    width: 100%;
+    background-color: #333;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px;
+    margin-bottom: 10px;
+    float: left;
+}
 
 @media ( max-width: 767px ) {
     .sideBar {
@@ -141,7 +178,7 @@ h4 {
     }
     
     .countryDataColumn {
-        max-height: 54%;
+        max-height: 27%;
     }
     
 }

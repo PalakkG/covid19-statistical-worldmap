@@ -26,6 +26,7 @@ const colorScale = scaleLinear()
 
 
 const MapChart = (stats) => {
+    
     const [position, setPosition] = useState({ coordinates: [10, -1], zoom: 1.5 });
     const [content, setContent] = useState('');
 
@@ -67,7 +68,7 @@ const MapChart = (stats) => {
                         {({ geographies }) =>
                             geographies.map((geo) => {
                                 let d = dataProcessing(stats, geo)
-                                console.log(max);
+                                //console.log(max);
 
                                 return (
                                     <Geography
