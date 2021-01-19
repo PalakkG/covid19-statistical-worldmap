@@ -23,6 +23,7 @@ const SideBar = (stats) => {
         countrySlugs = [...countrySlugs, slug]
     }
 
+    // eslint-disable-next-line
     const printGlobalStats = Object.entries(globalData).map(([key, value]) => {
         if (key !== "ID") {
             return (
